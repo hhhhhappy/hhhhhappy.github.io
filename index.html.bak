@@ -1,0 +1,184 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>SMC2020</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="SMC, ESWEEK" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- animation-effect -->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!-- //animation-effect -->
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="logo">
+						<h1><a class="navbar-brand" href="index.html">SMC2020</a></h1>
+					</div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--francisco">
+						<ul class="nav navbar-nav menu__list">
+							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><span class="menu__helper">Home</span></a></li>
+							<li class="menu__item"><a href="research.html" class="menu__link"><span class="menu__helper">Research</span></a></li>
+							<li class="menu__item"><a href="publication.html" class="menu__link"><span class="menu__helper">Publications</span></a></li>
+							<li class="menu__item"><a href="images/CV.pdf" class="menu__link" target="_blank"><span class="menu__helper">CV</span></a></li>
+							<li class="menu__item"><a href="#CONTACT" class="menu__link"><span class="menu__helper">Contact</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner1">
+		<div class="container">
+			<h2 class="animated wow slideInLeft"><a href="index.html">International Workshop on <p style="color:red">Storage and Memory Computing (SMC)</p> @ ESWEEK 2020</a></h2>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- about -->
+<div class="about">
+    <div class="container">
+        <div class="about-grids">
+            <div class="col-md-6 about-grids-left">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body panel_text">
+														Memory and storage have been developed during last decades. However, the data transfer cost between CPU and storage or memory becomes the critical challenge for the advanced systems. Storage and memory computing provides a new opportunity to solve this issue by adding computing function beside storage or memory. In this workshop, we are not only interested in the advanced storage and memory computing technologies, but also take a special attention to the advanced storage and memory technologies. The workshop to will bring together scientists and engineers from industry and academia who are working on storage and memory computing architectures and systems. The topics of the workshop will include but not limit to the following topics:
+																1)	Storage Computing Architecture
+																2)	Memory Computing Architecture
+																3)	Systems for Memory and Computing
+																4)	Systems for Storage and Computing
+																5)	State-of-the-art storage technologies
+																6)	State-of-the-art memory technologies
+														ESWEEK is the premier event covering all aspects of hardware and software design for smart, intelligent and connected computing systems. Different from the traditional computing systems, storage and memory computing systems are new types of systems, especially focuses on how to exploit the specific characteristics of storage or memory to enable computing. Same to the theme of ESWEEK, the workshop focuses on the topics about how to enable computing with storage or memory. This is highly related to ESWEEK and complements it.
+														Selected papers, after further revisions, will be considered for publication in special issues of journals.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><link rel="stylesheet" href="css/animate.min.css">
+            <div class="col-md-6 about-grids-right animated wow slideInRight" data-wow-delay="0s">
+                <img src="images/me.jpg" alt=" " class="img-responsive" />
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- //about -->
+<!-- footer -->
+<div class="footer"><a name="CONTACT"></a>
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay="0s">
+                    <h3>Contact</h3>
+                    <p>Email: gaocm92 &alpha; gmail.com</p>
+                    <p>Phone: +86 153 2032 4331 / +1 412 708 5239</p>
+				<!--	<div class="social">
+						<ul class="social-nav model-8">
+							<li><a href="https://scholar.google.com/citations?user=vjpzagIAAAAJ&hl=zh-CN" class=""><i>Google Scholar</i></a></li>
+							<li><a href="https://dblp.org/pers/hd/g/Gao:Congming" class=""><i>DBLP</i></a></li>
+							<li><a href="https://blog.csdn.net/g382112762" class=""><i>CSDN Blog</i></a></li>
+							<li><a href="#" class="p"><i></i></a></li>
+						</ul>
+					</div>-->
+				</div>
+               <div class="col-md-4 footer-grid animated wow slideInLeft" data-wow-delay=".01s">
+                    <br><br><br>
+                    <p><a href="https://dblp.org/pers/hd/g/Gao:Congming" target="view_frame">DBLP: Congming Gao</a></p>
+                    <p><a href="https://scholar.google.com/citations?user=vjpzagIAAAAJ&hl=zh-CN" target="view_frame">Google Scholar: Congming Gao</a></p>
+                </div>
+				<div style="display:inline-block;width:200px;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=OIdLwJUqGnMAnhV0r_dOWDkXoZDxEcGLPEafKY8-5sc&co=212121&cmn=f50a34'></script></div>
+                <div class="clearfix"> </div>
+			</div>
+			<div class="footer-grids1">
+				<div class="footer-grids1-left animated wow slideInLeft">
+                    <ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publication.html">Publications</a></li>
+						<li><a href="images/CV.pdf">CV</a></li>
+						<li><a href="#CONTACT">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
